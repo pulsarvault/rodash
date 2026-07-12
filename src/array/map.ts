@@ -1,5 +1,5 @@
 // Rohit Chauhan: All Erasable types used. Just run .ts on Bun, Node or Deno
-// Map Implementation
+// map Implementation
 export function map<T, U>(
   items: readonly T[],
   transform: (item: T, index: number) => U): U[] {
@@ -7,14 +7,14 @@ export function map<T, U>(
 
   for (let index = 0; index < items.length; index++) {
 
-    const item = items[index]!
+    const item = items[index]! // Sure
 
     result.push(transform(item, index))
   }
   return result
 }
 /*
-//Map usage
+//Map Usage
 const names = ["Rohit", "Samar", "Samir"]
 const upperNames = map(names, (name) => name.toUpperCase())
 console.log(upperNames)
