@@ -1,5 +1,5 @@
-# Rohit Chauhan: RoDash
-
+# Rohit Chauhan
+# RoDash: Open Source TypeScript Kit.
 To install dependencies:
 
 ```bash
