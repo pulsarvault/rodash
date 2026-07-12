@@ -14,7 +14,7 @@ export function map<T, U>(
   return result
 }
 /*
-//Map Usage
+//map Usage
 const names = ["Rohit", "Samar", "Samir"]
 const upperNames = map(names, (name) => name.toUpperCase())
 console.log(upperNames)
