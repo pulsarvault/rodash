@@ -1,6 +1,6 @@
 // Rohit Chauhan: All Erasable types used. Just run .ts on Bun, Node or Deno
 // reduce Implementation
-function reduce<T, R>(
+export function reduce<T, R>(
   items: readonly T[],
   initialValue: R,
   reducerArrowCallback: (acculumator: R, item: T, index: number) => R
