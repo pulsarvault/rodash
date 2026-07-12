@@ -1,4 +1,4 @@
-# TransMachina Finite State Machine (FSM)
+# Rodash TypeScript Kit
 
-Rohit Chauhan: Open-Source Finite State Machine (FSM) with Event-Bus, Store-Bag and SaveBox in TypeScript 
+Rohit Chauhan: Open-Source TypeScript Kit
 ---------------------------------------------------------------------------------------------------------
