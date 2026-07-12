@@ -1,4 +1,4 @@
-# Rohit Chauhan; RoDash
+# Rohit Chauhan: RoDash
 
 To install dependencies:
 
