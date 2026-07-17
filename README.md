@@ -1,5 +1,5 @@
 # Rohit Chauhan
-# RoDash: Open Source TypeScript Kit.
+# RoDash: Typed, Tinker, and Treeshake (infer, iterate, and ship)
 To install dependencies:
 
 ```bash
