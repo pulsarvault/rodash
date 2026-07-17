@@ -10,10 +10,16 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsdown"
+    "build": "tsdown",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:watch": "vitest --watch",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.10",
     "tsdown": "^0.22.5",
-    "typescript": "5.9"
+    "typescript": "5.9",
+    "vitest": "^4.1.10"
   }
 }

@@ -9,13 +9,3 @@ export function forEach<T>(
     callback(item, index)
   }
 }
-/*
-// forEach Usage
-const users = [
-  { name: "Rohit" },
-  { name: "Samar" },
-  { name: "Samir" },
-];
-
-forEach(users, (user) => { console.log(`Welcome ${user.name}!`) })
-*/

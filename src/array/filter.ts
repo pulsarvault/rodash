@@ -14,15 +14,3 @@ export function filter<T>(
   }
   return result
 }
-/*
-// filter Usage
-const users = [
-  { name: "Rohit", active: true },
-  { name: "Samar", active: false },
-  { name: "Samir", active: false },
-];
-
-const activeUsers = filter(users, user => user.active);
-
-console.log(activeUsers);
-*/
